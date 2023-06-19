@@ -21,6 +21,10 @@ body {
   list-style: none;
 }
 
+.address {
+  font-style: normal;
+}
+
 .header {
   background-color: var(--white);
 }
@@ -54,6 +58,13 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.header-contacts-link:hover,
+.header-contacts-link:focus,
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: var(--ocean);
 }
 
 .hero {
