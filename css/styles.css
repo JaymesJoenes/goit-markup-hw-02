@@ -9,15 +9,16 @@
 
 body {
   background-color: var(--white);
+  color: #434455;
   font-family: 'Roboto', sans-serif;
 }
 
-a {
+.link {
   text-decoration: none;
 }
 
-ul {
-  list-style-type: none;
+.list {
+  list-style: none;
 }
 
 .header {
@@ -25,30 +26,34 @@ ul {
 }
 
 .logo {
-  color: var(--navy-blue);
+  color: var(--iris);
   font-weight: 800;
   font-size: 18px;
-  font-family: 'Raleway';
-  line-height: 21px;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .logo-span {
-  color: var(--iris);
+  color: var(--navy-blue);
 }
 
 .header-nav-link {
   color: var(--navy-blue);
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .header-contacts-link {
   color: var(--slate);
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .hero {
