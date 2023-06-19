@@ -164,14 +164,17 @@ body {
   color: var(--iris);
   font-weight: 500;
   font-size: 16px;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   line-height: 24px;
+  letter-spacing: 0.04em;
   text-align: center;
 }
 
-.portfolio-btn:active {
+.portfolio-btn:hover,
+.portfolio-btn:focus {
   background-color: var(--ocean);
   color: var(--white);
+  cursor: pointer;
 }
 
 .portfolio-content {
