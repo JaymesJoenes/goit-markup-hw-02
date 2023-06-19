@@ -1,7 +1,163 @@
+:root {
+  --navy-blue: #2e2f42;
+  --iris: #4d5ae5;
+  --slate: #434455;
+  --cloud: #f4f4fd;
+  --white: #ffffff;
+  --ocean: #404bbf;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 ul {
   list-style-type: none;
+}
+
+.header {
+  background-color: var(--white);
+}
+
+.logo {
+  color: var(--navy-blue);
+  font-weight: 800;
+  font-size: 18px;
+  font-family: 'Raleway';
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
+.logo-span {
+  color: var(--iris);
+}
+
+.header-nav-link {
+  color: var(--navy-blue);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.header-contacts-link {
+  color: var(--slate);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.hero {
+  background-color: var(--navy-blue);
+}
+
+.hero-h1 {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.hero-button {
+  background-color: var(--iris);
+  color: var(--white);
+  font-weight: 500;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 24px;
+}
+
+.specs-h3 {
+  color: var(--navy-blue);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.specs-p {
+  color: var(--slate);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.wrwd-h2 {
+  color: var(--navy-blue);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.our-team {
+  background-color: var(--cloud);
+}
+
+.team-member {
+  background-color: var(--white);
+}
+
+.team-member-name {
+  color: var(--navy-blue);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.team-member-descr {
+  color: var(--slate);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.portfolio-btn {
+  background-color: var(--cloud);
+  color: var(--iris);
+  font-weight: 500;
+  font-size: 16px;
+  font-family: 'Roboto';
+  line-height: 24px;
+  text-align: center;
+}
+
+.portfolio-btn:active {
+  background-color: var(--ocean);
+  color: var(--white);
+}
+
+.portfolio-content {
+  color: var(--navy-blue);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.portfolio-content-descr {
+  color: var(--slate);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+footer {
+  background-color: var(--navy-blue);
+}
+
+.footer-text {
+  color: var(--cloud);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+footer .logo {
+  color: var(--cloud);
 }
