@@ -96,7 +96,7 @@ body {
   background-color: var(--ocean);
 }
 
-.specs-h3 {
+.specs-title {
   color: var(--navy-blue);
   font-weight: 500;
   font-size: 20px;
@@ -114,11 +114,20 @@ body {
   line-height: 24px;
 }
 
-.wrwd-h2 {
+.wrwd-title {
   color: var(--navy-blue);
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.our-team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
 }
@@ -136,6 +145,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 
@@ -144,6 +154,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 
@@ -176,8 +187,12 @@ body {
   line-height: 24px;
 }
 
-footer {
+.footer {
   background-color: var(--navy-blue);
+}
+
+.footer .logo-span {
+  color: var(--cloud);
 }
 
 .footer-text {
@@ -185,8 +200,5 @@ footer {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-}
-
-footer .logo {
-  color: var(--cloud);
+  letter-spacing: 0.02em;
 }
